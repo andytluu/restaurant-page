@@ -1,3 +1,5 @@
+import coffeeImg from "./coffee.jpg";
+
 function home(){
     function createTag(tag){
         return document.createElement(tag);
@@ -7,6 +9,9 @@ function home(){
 
     const homePage = createTag("div");
     homePage.setAttribute("id","home-page");
+    const img = createTag("img");
+    img.src = coffeeImg;
+    homePage.append(img);
 
     const title = createTag("h1");
     title.textContent = "Welcome to Cafe Luu";

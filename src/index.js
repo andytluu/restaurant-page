@@ -1,6 +1,7 @@
 import home from "./home.js";
 import menu from "./menu.js";
 import contact from "./contact.js";
+import "./styles.css";
 home();
 //menu();
 //contact();

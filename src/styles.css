@@ -1,0 +1,33 @@
+button{
+    border-radius: 12px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+#home-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#menu-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+}
